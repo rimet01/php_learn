@@ -22,3 +22,12 @@ $b = trim(fgets(STDIN));
 $sum = $a + $b;
 echo "The sum of $a and $b is $sum.";
 ?>
+
+- - -
+/* Flowgorithm - ..for.. */
+
+<?php
+for ($x = 1; $x <= 100; $x++) {
+    echo $x . PHP_EOL;
+}
+?>
